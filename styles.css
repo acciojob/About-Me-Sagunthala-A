@@ -1,1 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.skills, .about {
+    margin-top: 20px;
+}
+
+.skills h2, .about h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    color: #007bff;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skill span {
+    width: 150px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.react { width: 95%; background-color: #61dafb; }
+.css { width: 95%; background-color: #264de4; }
+.javascript { width: 95%; background-color: #f0db4f; }
+.nodejs { width: 90%; background-color: #68a063; }
+.mongodb { width: 90%; background-color: #4db33d; }
+.cpp { width: 99%; background-color: #00599c; }
+.python { width: 99%; background-color: #3776ab; }
+.batch { width: 99%; background-color: #484848; }
+.aws { width: 93%; background-color: #ff9900; }
+.hadoop { width: 93%; background-color: #66ccff; }
